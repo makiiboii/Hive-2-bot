@@ -39,7 +39,7 @@ client.once('ready', () => {
     console.log(`✅ Logged in as ${client.user.tag}`);
 });
 
-// Command: !gising
+// Cmmand: !gising
 client.on('messageCreate', async (message) => {
     if (message.content === '!joinhive2') {
         if (message.author.id !== OWNER_ID) {
