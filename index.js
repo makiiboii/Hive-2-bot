@@ -39,9 +39,9 @@ client.once('clientReady', () => {
     console.log(`✅ Logged in as ${client.user.tag}`);
 });
 
-// Cmmand: !gising
+// Command: !gising
 client.on('messageCreate', async (message) => {
-    if (message.content === '!joinhive2') {
+    if (message.content === '!joinhive3') {
         if (message.author.id !== OWNER_ID) {
             return message.reply('❌ Only the bot owner can use this command.');
         }
